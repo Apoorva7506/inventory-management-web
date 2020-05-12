@@ -1,7 +1,7 @@
 from django.contrib import admin
+from .models import *
 
-from .models import Product_Transaction, Products, Bill, Items
-
+admin.site.register(User)
 admin.site.register(Product_Transaction)
 admin.site.register(Products)
 admin.site.register(Bill)
